@@ -42,7 +42,7 @@ article, h3, h2, main p
     left: 0;
     bottom: 0;
     width: 100%;
-    background-image: linear-gradient(229deg, #0000008c 0%, #000000cf 100%), url(../images/header.jpg);
+    background-image: linear-gradient(229deg, #0000008c 0%, #000000cf 100%), url(images/header.jpg);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
     background-size: cover;
     z-index: -1;
