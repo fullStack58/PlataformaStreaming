@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Pagina web con CSS y JS </title>
+        <link rel="stylesheet" href="estilos/normalize.css">
+        <link rel="stylesheet" href="estilos/styles.css">
+        <link rel="shortcut icon" href="images/favicon2.ico" type="image/x-icon"> 
+    </head>
+    <body> 
+        <header class="hero">
+            <nav class="nav container">
+                <div class="nav_logo">
+                    <h2 class="nav_title">CineFlix</h2>
+                </div>
+                
+                <ul class="nav_link nav_link--menu">
+                    <li class="nav_items"><a class="nav_links" href="#">Inicio</a></li> 
+                    <li class="nav_items"><a class="nav_links" href="#">Acerca de</a></li> 
+                    <li class="nav_items"><a class="nav_links" href="#">Contacto</a></li> 
+                    <li class="nav_items"><a class="nav_links" href="#">Blog</a></li> 
+                    <img src="images/close.svg" class="nav__close"> 
+                </ul>
+                
+                <div class="nav_menu">
+                    <img src="images/menu.svg" class="nav__img">|
+                </div>
+            </nav>
+
+            <section class="hero__container container">
+                <h1 class="hero__title">Plataforma Streaming</h1>
+                <p class="hero__paragraph">Accede a una gran variedad de contenido, a donde quiera que estes y en el momento que quieras.
+                                           Además crea y comparte tu propio contenido, así como consumir contenido de otros creadores.
+                                           Este es el espacio ideal para tí!
+                </p>
+                <a href="#" class="cta">Comienza Ahora</a>
+            </section>
+        </header>
+
+        <main>
+            <section class="container about">
+                <div class="about">
+                    <h2 class="subtitle">Entretenimiento para todos los gustos!</h2> 
+                    <p class="about__paragraph">Amplia gama de opciones de entretenimiento para espectadores de todas las edades y preferencias. Desde éxitos de taquilla llenos de acción hasta conmovedoras comedias románticas, dramas que invitan a la reflexión y películas animadas para toda la familia, una película tiene algo para todos. </p>
+                        
+                    <div class="about__main">
+                        <article class="about__icons">
+                            <img src="https://images.unsplash.com/photo-1710829644723-f432353d7216?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="about_images"> 
+                            <img class="about__icon" src="images/shapes.svg">
+                            <h3 class="about__title">ACCIÓN</h3>
+                            <p class="about__paragraph">Las películas de acción presentan escenas trepidantes 
+                                y llenas de energía de hazañas físicas, como peleas, persecuciones 
+                                o explosiones. A menudo involucran a un héroe que debe superar obstáculos 
+                                o enemigos para lograr un 
+                                objetivo y pueden incluir elementos de aventura, suspenso o drama. </p>
+                        </article>
+
+                        <article class="about__icons">
+                            <img src="https://images.unsplash.com/photo-1464809142576-df63ca4ed7f0?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="about_images">      
+                            <img class="about__icon" src="images/paint.svg">
+                            <h3 class="about__title">FANTASÍA</h3>
+                            <p class="about__paragraph">Las películas de fantasía transportan a los 
+                                espectadores a mundos imaginarios llenos de magia, criaturas míticas y 
+                                aventuras épicas. A menudo presentan elementos de asombro, encantamiento 
+                                y escapismo, y pueden estar basados ​​en el folclore, la mitología o historias 
+                                originales.</p>
+                        </article>
+
+                        <article class="about__icons">
+                            <img src="https://images.unsplash.com/photo-1601513445506-2ab0d4fb4229?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="about_images">      
+                            <img class="about__icon" src="images/code.svg">
+                            <h3 class="about__title">TERROR</h3>
+                            <p class="about__paragraph">Estas películas están diseñadas para provocar miedo, 
+                                pavor o disgusto en los espectadores. A menudo presentan elementos sobrenaturales, 
+                                como fantasmas, monstruos o maldiciones, y pueden implicar horror psicológico 
+                                o suspenso. Ejemplos de películas 
+                                de terror clásicas incluyen "Psicosis", "El resplandor" y "Halloween".</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="knowledge">
+                <div class="knowledge__container container">
+                    <div class="knowledge__texts">
+                        <h2 class="subtitle">Mira tus películas favoritas a donde quiera que estes</h2>
+                        <p class="knowledge__paragraph">Experimenta la libertad de ver tus películas favoritas en cualquier momento y lugar con CineFlix. Con una amplia biblioteca de películas y programas de televisión, puedes disfrutar de entretenimiento de alta calidad a tu manera. Ya sea que esté en casa, de viaje o de vacaciones, nuestra plataforma le permite transmitir su contenido favorito sin problemas en su dispositivo preferido. </p>
+                        <a href="#" class="cta">Hecha un vistazo</a>
+                    </div>
+                    <figure class="knowledge__picture">
+                        <img class="knowledge__img" src="images/computador.png">
+                    </figure>
+                </div>
+            </section>
+            
+            <section class="price container">
+                <h2 class="subtitle">Adquiere una suscripción</h2>
+    
+                <div class="price__table">
+                    <div class="price__element">
+                        <p class="price__name">Maquetación Basica</p>
+                        <h3 class="price__price">Free</h3>
+    
+                        <div class="price__items">
+                            <p class="price__features">Peliculas HD</p>
+                            <p class="price__features">1 pantalla</p>
+                            <p class="price__features">Descarga peliculas</p>
+                        </div>
+    
+                        <a href="#" class="price__cta">Adquirir yá!</a>
+                    </div>
+    
+    
+                    <div class="price__element price__element--best">
+                        <p class="price__name">Maquetación Intermedia</p>
+                        <h3 class="price__price">Free</h3>
+    
+                        <div class="price__items">
+                            <p class="price__features">Peliculas FHD</p>
+                            <p class="price__features">5 pantallas</p>
+                            <p class="price__features">Descarga peliculas</p>
+                        </div>
+    
+                        <a href="#" class="price__cta">Adquirir yá!</a>
+                    </div>
+    
+    
+                    <div class="price__element">
+                        <p class="price__name">Maquetación Avanzada</p>
+                        <h3 class="price__price">Free</h3>
+    
+                        <div class="price__items">
+                            <p class="price__features">Peliculas HD</p>
+                            <p class="price__features">2 pantallas</p>
+                            <p class="price__features">Descarga peliculas</p>
+                        </div>
+    
+                        <a href="#" class="price__cta">Adquirir yá!</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimony">
+                <div class="testimony__container container">
+                    <img src="images/leftarrow.svg" class="testimony__arrow" id="before">
+    
+                    <section class="testimony__body testimony__body--show" data-id="1">
+                        <div class="testimony__texts">
+                            <h2 class="subtitle">Camila Suarez, <span class="testimony__course">Cineasta</span></h2>
+                            <p class="testimony__review">"He estado usando este servicio de transmisión durante algunos meses y estoy realmente impresionada. La selección de películas y programas de televisión es fantástica y la calidad de las transmisiones siempre es excelente. Me encanta poder ver mis programas favoritos en mi teléfono o tableta cuando estoy fuera. ¡Muy recomendable!"</p>
+                        </div>
+    
+                        <figure class="testimony__picture">
+                            <img src="images/face.jpg" class="testimony__img">
+                        </figure>
+                    </section>
+    
+                    <section class="testimony__body" data-id="2">
+                        <div class="testimony__texts">
+                            <h2 class="subtitle">Diego Lopez, <span class="testimony__course">Espectador</span></h2>
+                            <p class="testimony__review">"Soy un poco cinéfilo y esta plataforma se ha convertido rápidamente en mi fuente de referencia para nuevos estrenos y películas clásicas. La interfaz es intuitiva y fácil de usar, y la función de búsqueda hace que sea sencillo encontrar exactamente lo que busco. Estoy buscando. El servicio al cliente también es excelente: tuve un pequeño problema con mi cuenta y se resolvió de manera rápida y eficiente.</p>
+                        </div>
+    
+                        <figure class="testimony__picture">
+                            <img src="images/face3.jpg" class="testimony__img">
+                        </figure>
+                    </section>
+    
+                    <section class="testimony__body" data-id="3">
+                        <div class="testimony__texts">
+                            <h2 class="subtitle">Diego Soto, <span class="testimony__course">Guionista</span></h2>
+                            <p class="testimony__review">"He probado muchos servicios de transmisión diferentes a lo largo de los años, pero este es definitivamente mi favorito. La selección de contenido es diversa e interesante, y la calidad de la transmisión es consistentemente alta. También aprecio la capacidad de crear múltiples perfiles para diferentes miembros de la familia, para que cada uno pueda tener sus propias listas de seguimiento y recomendaciones. ¡Una excelente relación calidad-precio!</p>
+                        </div>
+    
+                        <figure class="testimony__picture">
+                            <img src="images/face4.jpg" class="testimony__img">
+                        </figure>
+                    </section>
+    
+                    <section class="testimony__body" data-id="4">
+                        <div class="testimony__texts">
+                            <h2 class="subtitle">María Dussan, <span class="testimony__course">Director</span></h2>
+                            <p class="testimony__review">"He estado usando esta plataforma por un tiempo y estoy muy contenta con ella. La calidad de imagen y sonido son excelentes, y la selección de películas y programas de televisión se expande constantemente. También aprecio la posibilidad de descargar contenido. para verlo sin conexión, lo cual es excelente para vuelos largos o viajes por carretera. En general, es un excelente servicio de transmisión por secuencias.</p>
+                        </div>
+    
+                        <figure class="testimony__picture">
+                            <img src="images/face2.jpg" class="testimony__img">
+                        </figure>
+                    </section>
+    
+    
+                    <img src="images/rightarrow.svg" class="testimony__arrow" id="next">
+                </div>
+            </section>
+
+            <section class="questions container">
+                <h2 class="subtitle">Preguntas frecuentes</h2>
+                <p class="questions__paragraph">Preguntas mas relevantes por nuestra comunidad</p>
+    
+                <section class="questions__container">
+                    <article class="questions__padding">
+                        <div class="questions__answer">
+                            <h3 class="questions__title">¿Qué es el streaming en el contexto de la transmisión de datos? 
+                                <span class="questions__arrow">
+                                    <img src="images/arrow.svg" class="questions__img">
+                                </span>
+                            </h3>
+    
+                            <p class="questions__show">El streaming es la transmisión de datos (audio o vídeo) en tiempo real a través de Internet, sin necesidad de que el usuario descargue primero el contenido.</p>
+                        </div>
+                    </article>
+    
+                    <article class="questions__padding">
+                        <div class="questions__answer">
+                            <h3 class="questions__title">¿En qué se diferencia la transmisión en vivo de la transmisión convencional? 
+                                <span class="questions__arrow">
+                                    <img src="images/arrow.svg" class="questions__img">
+                                </span>
+                            </h3>
+    
+                            <p class="questions__show">En la transmisión en vivo, el contenido se transmite y se ve en tiempo real, mientras que la transmisión convencional permite a los usuarios pausar, rebobinar o avanzar rápidamente el contenido.</p>
+                        </div>
+                    </article>
+    
+                    <article class="questions__padding">
+                        <div class="questions__answer">
+                            <h3 class="questions__title">¿Cuáles son los orígenes de la transmisión en vivo? 
+                                <span class="questions__arrow">
+                                    <img src="images/arrow.svg" class="questions__img">
+                                </span>
+                            </h3>
+    
+                            <p class="questions__show">El primer evento grabado de transmisión en vivo tuvo lugar en Palo Alto, California, en 1993, cuando una banda llamada Severe Tire Damage tocó en vivo mientras los científicos discutían sobre la transmisión de datos en tiempo real a través de Internet.</p>
+                        </div>
+                    </article>
+                </section>
+    
+                <section class="questions__offer">
+                    <h2 class="subtitle">¿Cómo puede la transmisión en vivo beneficiar una estrategia de marketing?</h2>
+                    <p class="questions__copy">La transmisión en vivo ofrece una oportunidad única para que las empresas interactúen con su audiencia de manera personalizada y exclusiva, brindando interacción en tiempo real y contenido valioso. También puede ayudar a aumentar la transparencia de la marca y humanizar la imagen de la empresa.</p>
+                    <a href="#" class="cta">Comienza ahora</a>
+                </section>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <section class="footer__container container">
+                <nav class="nav nav--footer">
+                    <h2 class="footer__title">Perfilamiento Frontend!</h2>
+    
+                    <ul class="nav__link nav__link--footer">
+                        <li class="nav__items">
+                            <a href="#" class="nav__links">Inicio</a>
+                        </li>
+                        <li class="nav__items">
+                            <a href="#" class="nav__links">Acerca de</a>
+                        </li>
+                        <li class="nav__items">
+                            <a href="#" class="nav__links">Contacto</a>
+                        </li>
+                        <li class="nav__items">
+                            <a href="#" class="nav__links">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                <form class="footer__form" action="https://formspree.io/f/mqkrdaar" method="POST">
+                    <h2 class="footer__newsletter">Contactanos!</h2>
+                    <div class="footer__inputs">
+                        <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                        <input type="submit" value="Registrate" class="footer__submit">
+                    </div>
+                </form>
+            </section>
+    
+            <section class="footer__copy container">
+                <div class="footer__social">
+                    <a href="#" class="footer__icons"><img src="images/facebook.svg" class="footer__img"></a>
+                    <a href="#" class="footer__icons"><img src="images/instagram.svg" class="footer__img"></a>
+                    <a href="#" class="footer__icons"><img src="images/youtube.svg" class="footer__img"></a>
+                    <a href="#" class="footer__icons"><img src="images/tiktok.svg" class="footer__img"></a>
+                </div>
+    
+                <h3 class="footer__copyright">Página Web con CSS y JS.</h3>
+            </section>
+        </footer">
+        <script src="./js/slider.js"></script>
+        <script src="./js/questions.js"></script>
+        <script src="./js/menu.js"></script>
+    </body>
+</html>
